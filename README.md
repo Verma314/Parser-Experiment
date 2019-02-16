@@ -2,10 +2,12 @@
 testing out the Jackson parser
 
 ### Step 1 
-Get the three Jackson JAR parsers from search.maven.org 
+Download these three 'Jackson JAR' files from search.maven.org 
 * jackson-core
 * jackson-annotations
 * jackson-databind
+
+(This is if you're not using Maven, Eclipse etc. If you are, I guess you could just add them to your POM file.)
 
 ### Step 2 
 Add the JARs to your Java CLASSPATH. This is dependant on your IDE etc.
