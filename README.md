@@ -22,3 +22,5 @@ https://javarevisited.blogspot.com/2011/01/how-classpath-work-in-java.html#axzz5
 ### Step 3
 
 We gotta use Jackson JSON parser. 
+
+https://fasterxml.github.io/jackson-core/javadoc/2.8/com/fasterxml/jackson/core/JsonParser.html
