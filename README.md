@@ -38,10 +38,8 @@ https://fasterxml.github.io/jackson-core/javadoc/2.8/com/fasterxml/jackson/core/
 
 ### Step 4
 
-Write code using all this info. See JsonParser.java file
+Write code using all this info. See JsonParser.java file. Or JsonParserArrays.java
 
-
-### Step 5:
 ```
 {
 	"batters":
@@ -57,7 +55,7 @@ Write code using all this info. See JsonParser.java file
 }
 ```
 if the user gives us the query {"batters", "batter" ,"id"}
-It will return the 4 id values from the array. This can be done from JsonParserRecursive.java.
+It will return the 4 id values from the array. This has been handled by JsonParserArrays.java
 The limits of the current state has been tested with nested2.json file
 Which also does **not** cover all possible scenarios. 
 
