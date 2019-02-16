@@ -9,7 +9,7 @@ Download these three 'Jackson JAR' files from search.maven.org
 * jackson-annotations
 * jackson-databind
 
-(This is if you're not using Maven, Eclipse etc. If you are, I guess you could just add names and versions of these files to your POM file, and it will set them up for you;)
+(This is if you're not using Maven. If you are, I guess you could just add names and versions of these files to your POM file, and it will set them up for you;)
 
 ### Step 2 
 [Skip this step if you use Maven]
