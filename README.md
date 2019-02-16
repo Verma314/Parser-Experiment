@@ -18,3 +18,5 @@ And I had to *literally* add the path to each of the three JARs manually into th
 https://javarevisited.blogspot.com/2011/01/how-classpath-work-in-java.html#axzz5ffH7br7D 
 
 ### Step 3
+
+We gotta use Jackson JSON parser. 
