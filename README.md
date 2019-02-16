@@ -36,12 +36,12 @@ https://fasterxml.github.io/jackson-databind/javadoc/2.2.0/com/fasterxml/jackson
 
 https://fasterxml.github.io/jackson-core/javadoc/2.8/com/fasterxml/jackson/core/JsonParser.html
 
-## Step 4
+### Step 4
 
 Write code using all this info. See JsonParser.java file
 
 
-### Limitatons:
+### Step 5:
 ```
 {
 	"batters":
@@ -56,7 +56,10 @@ Write code using all this info. See JsonParser.java file
     }
 }
 ```
-if the user gives us the query {"batters", "batter"}
+if the user gives us the query {"batters", "batter" ,"id"}
+It will return the 4 id values from the array. This can be done from JsonParserRecursive.java.
+The limits of the current state has been tested with nested2.json file
+Which also does **not** cover all possible scenarios. 
 
-It will return the 4 arrays as a string. 
-Lemme know if we wanna access array values and then access the keys in them. 
+Lemme know if we want the complete implementation. 
+Lemme know if you spot any bugs.
