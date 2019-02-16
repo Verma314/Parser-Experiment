@@ -26,14 +26,36 @@ https://javarevisited.blogspot.com/2011/01/how-classpath-work-in-java.html#axzz5
 
 We gotta use Jackson JSON parser. 
 
-What you wanna do is read your user's JSON file into a **tree model**.  I don't think you need the ObjectMapper.
+What you wanna do is read your user's JSON file into a **tree model**. 
 This article explains how to use the tree model really well:
 https://dzone.com/articles/processing-json-with-jackson
 and also explains how to set up Jackson.
 
 The rest of the documentation is here:
+https://fasterxml.github.io/jackson-databind/javadoc/2.2.0/com/fasterxml/jackson/databind/JsonNode.html#asText()
 https://fasterxml.github.io/jackson-core/javadoc/2.8/com/fasterxml/jackson/core/JsonParser.html
 
 ## Step 4
 
 Write code using all this info.
+
+
+# Limitatons:
+
+{
+	"batters":
+		{
+			"batter":
+				[
+					{ "id": "1001", "type": "Regular" },
+					{ "id": "1002", "type": "Chocolate" },
+					{ "id": "1003", "type": "Blueberry" },
+					{ "id": "1004", "type": "Devil's Food" }
+				]
+    }
+}
+
+if the user gives us the query {"batters", "batter"}
+
+It will return the 4 arrays as a string. 
+Lemme know if we wanna access array values and then access the keys in them. 
