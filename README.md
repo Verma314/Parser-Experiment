@@ -33,6 +33,7 @@ and also explains how to set up Jackson.
 
 The rest of the documentation is here:
 https://fasterxml.github.io/jackson-databind/javadoc/2.2.0/com/fasterxml/jackson/databind/JsonNode.html#asText()
+
 https://fasterxml.github.io/jackson-core/javadoc/2.8/com/fasterxml/jackson/core/JsonParser.html
 
 ## Step 4
