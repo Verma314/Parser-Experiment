@@ -46,10 +46,10 @@ public class JsonParserArrays {
     public static void main( String [] args) {
 		
 		try {
-            JsonNode rootNode;
-            ObjectMapper objectMapper;
-            objectMapper = new ObjectMapper();
-            rootNode = objectMapper.readTree(new File("nested2.json"));
+            		JsonNode rootNode;
+            		ObjectMapper objectMapper;
+            		objectMapper = new ObjectMapper();
+            		rootNode = objectMapper.readTree(new File("nested2.json"));
 
 			//write your queries here:
 			String [] query = {"topping", "type", "a", "c"};
