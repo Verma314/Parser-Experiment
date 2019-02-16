@@ -37,11 +37,11 @@ https://fasterxml.github.io/jackson-core/javadoc/2.8/com/fasterxml/jackson/core/
 
 ## Step 4
 
-Write code using all this info.
+Write code using all this info. See JsonParser.java file
 
 
-# Limitatons:
-
+### Limitatons:
+```
 {
 	"batters":
 		{
@@ -54,7 +54,7 @@ Write code using all this info.
 				]
     }
 }
-
+```
 if the user gives us the query {"batters", "batter"}
 
 It will return the 4 arrays as a string. 
