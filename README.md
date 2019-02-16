@@ -1,15 +1,13 @@
 # Parser-Experiment
 testing out the Jackson parser
 
-## Steps
-
-### 1 
+### Step 1 
 Get the three Jackson JAR parsers from search.maven.org 
 * jackson-core
 * jackson-annotations
 * jackson-databind
 
-### 2 
+### Step 2 
 Add the JARs to your Java CLASSPATH. This is dependant on your IDE etc.
 
 I do not have an IDE, so I am doing it manually.
@@ -19,4 +17,4 @@ And I had to *literally* add the path to each of the three JARs manually into th
 
 https://javarevisited.blogspot.com/2011/01/how-classpath-work-in-java.html#axzz5ffH7br7D 
 
-### 3
+### Step 3
